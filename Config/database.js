@@ -4,7 +4,7 @@ const pool= createPool({
 	host:"localhost",
 	user:"root",
 	password:"",
-	database:"Jtable1",
+	database:"jtable1",
 	connectionLimit: 10
 });
 

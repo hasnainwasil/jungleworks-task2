@@ -17,7 +17,7 @@ app.use(express.json());
 
 app.use('/api/users',userRouter);
 
-var PORT = process.env.PORT || 5000;
+var PORT = 5000;
 
 app.listen(PORT, function(){
 	console.log("Server Has Started");
